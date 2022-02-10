@@ -1,0 +1,23 @@
+.header {
+  background-color: transparent;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding-top: 1.5em;
+  padding-bottom: 0;
+  background-image: linear-gradient(to right, #4633ce, #4532cc);
+}
+.header .navbar {
+  background-image: linear-gradient(to right, #4633ce, #4532cc);
+  margin-bottom: 0;
+  border-color: #4532cc;
+}
+.header .navbar .container .navbar-nav {
+  margin-right: 5em;
+}
+.header .navbar .container .navbar-nav > li > a {
+  color: #fff;
+  margin-left: 1.5em;
+}

@@ -1,0 +1,122 @@
+
+body{
+    background: url(../images/2bg.png) no-repeat center bottom;
+    background-size: 100% 100%;
+}
+.main{
+    .container{
+        .privacy{
+            text-align: center;
+            color: white;
+            margin-bottom: 4em;
+            h2{
+
+            }
+            .span{
+                color: white;
+                font-size: 1.4em;
+            }
+            p{
+                white-space: pre-line;
+                text-align: left;
+                font-size: 1.5em;
+                color: #8781a0;
+            }
+        }
+    }
+}
+.footer{
+    background-color:#192057 ;
+    padding: 6em 0;
+   
+    .container{
+        color: white;
+        display: flex;
+        flex-flow: wrap;
+        .left{
+            width: 40%;
+            margin-right: 4em;
+            div:nth-child(1){
+                margin-bottom: 1.2em;
+            }
+            span{
+                font-size: .9em;
+            }
+        }
+        .central{
+            width: 10%;
+            margin-right: 4em;
+            span{
+                display: block;
+                font-size: 1.1em;
+                color: #8781a0;
+                margin-bottom: 1.2em;
+                &:nth-child(1){
+                    color: white;
+                    font-size: 1.3em;
+                    margin-bottom: .6em;
+                }
+            }
+           
+        }
+        .middle{
+            width: 15%;
+            margin-right: 4em;
+            span{
+                font-size: .9em;
+                color: #8781a0;
+                display: block;
+                margin-bottom: .4em;
+                &:first-child{
+                    font-size: 1.2em;
+                    color: white;
+                    margin-bottom: .8em;
+                }
+                &:nth-child(2){
+                    margin-bottom: 1.5em;
+                }
+            }
+        }
+        .right{
+            text-align: center;
+            width: 20%;
+            span{
+                font-size: .9em;
+                display: block;
+                color: white;
+                margin-bottom: .6em;
+                
+                &:last-child{
+                    margin-bottom: 0em;
+                }
+            }
+            .img{
+                margin-bottom: .6em;
+               
+            }
+        }
+    }
+    @media screen and (max-width:992px){
+        .container{
+            text-align: center;
+            .left,.central,.middle,.right{
+              flex-basis: 100%;
+              margin-bottom: 4em;
+              margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:770px){
+    .main{
+        .container{
+            .privacy{
+                p{
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+    
+}

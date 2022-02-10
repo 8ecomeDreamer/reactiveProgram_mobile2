@@ -1,0 +1,65 @@
+.totalC {
+  text-align: center;
+}
+.totalC .totalc {
+  margin-top: 8em;
+}
+.totalC .totalc .circle {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  margin-right: 0.1em;
+  display: inline-block;
+}
+.totalC .totalc .circle:last-child {
+  margin-right: 0;
+}
+.totalC .totalc .blue {
+  background-color: #00A8FF;
+}
+.totalC .totalc .purple {
+  background-color: #9C88FF;
+}
+.totalC .totalc .yellow {
+  background-color: #fBC531;
+}
+.totalC .totalc .green {
+  background-color: #4CD137;
+}
+.totalC .totalc .darkblue {
+  background-color: #487EB0;
+}
+.totalC .totalc .red {
+  background-color: #E84118;
+}
+.totalC .totalc .darkpurple {
+  background-color: #8C7AE6;
+}
+.diary {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.diary .title {
+  font-size: 2.2em;
+  color: white;
+  margin-bottom: 0.8em;
+  margin-top: 0.8em;
+}
+.diary span {
+  font-size: 0.9em;
+  color: #8781a0;
+  display: block;
+}
+@keyframes rotated {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes scaled {
+  0% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

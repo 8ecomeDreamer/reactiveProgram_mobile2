@@ -1,0 +1,105 @@
+body {
+  background: url(../images/2bg.png) no-repeat center bottom;
+  background-size: 100% 100%;
+}
+.main .container .privacy {
+  text-align: center;
+  color: white;
+  margin-bottom: 4em;
+}
+.main .container .privacy .span {
+  color: white;
+  font-size: 1.4em;
+}
+.main .container .privacy p {
+  white-space: pre-line;
+  text-align: left;
+  font-size: 1.5em;
+  color: #8781a0;
+}
+.footer {
+  background-color: #192057;
+  padding: 6em 0;
+}
+.footer .container {
+  color: white;
+  display: flex;
+  flex-flow: wrap;
+}
+.footer .container .left {
+  width: 40%;
+  margin-right: 4em;
+}
+.footer .container .left div:nth-child(1) {
+  margin-bottom: 1.2em;
+}
+.footer .container .left span {
+  font-size: 0.9em;
+}
+.footer .container .central {
+  width: 10%;
+  margin-right: 4em;
+}
+.footer .container .central span {
+  display: block;
+  font-size: 1.1em;
+  color: #8781a0;
+  margin-bottom: 1.2em;
+}
+.footer .container .central span:nth-child(1) {
+  color: white;
+  font-size: 1.3em;
+  margin-bottom: 0.6em;
+}
+.footer .container .middle {
+  width: 15%;
+  margin-right: 4em;
+}
+.footer .container .middle span {
+  font-size: 0.9em;
+  color: #8781a0;
+  display: block;
+  margin-bottom: 0.4em;
+}
+.footer .container .middle span:first-child {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 0.8em;
+}
+.footer .container .middle span:nth-child(2) {
+  margin-bottom: 1.5em;
+}
+.footer .container .right {
+  text-align: center;
+  width: 20%;
+}
+.footer .container .right span {
+  font-size: 0.9em;
+  display: block;
+  color: white;
+  margin-bottom: 0.6em;
+}
+.footer .container .right span:last-child {
+  margin-bottom: 0em;
+}
+.footer .container .right .img {
+  margin-bottom: 0.6em;
+}
+@media screen and (max-width: 992px) {
+  .footer .container {
+    text-align: center;
+  }
+  .footer .container .left,
+  .footer .container .central,
+  .footer .container .middle,
+  .footer .container .right {
+    flex-basis: 100%;
+    margin-bottom: 4em;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 770px) {
+  .main .container .privacy p {
+    font-size: 1.1em;
+  }
+}
